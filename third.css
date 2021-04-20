@@ -491,4 +491,22 @@ img{
     .blog_img::after{
         display: none;
     }
+
+    .last_content{
+        width: 100%;
+        flex-direction: column;
+    }
+    .last_content ul{
+        flex-direction: column;
+    }
+    .last_content li{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .last_content .test::before,
+    .last_content .test2::before{
+        width: 400px;
+        right: -400px;
+    }
 }
