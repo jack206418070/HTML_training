@@ -506,7 +506,7 @@ img{
 
     .last_content .test::before,
     .last_content .test2::before{
-        width: 400px;
-        right: -400px;
+        width: 280px;
+        right: -280px;
     }
 }
