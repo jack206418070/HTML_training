@@ -32,14 +32,14 @@ a{
     padding: 10px 50px;
     box-sizing: border-box;
 }
-.header a{
+.header > a{
     font-size: 24px;
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
 }
 
-.header a:hover{
+.header > a:hover{
     background-color: #3d5843;
     color: #eaf0ed;
 }
